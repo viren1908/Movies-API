@@ -33,7 +33,7 @@ form.addEventListener('submit' , (e) =>{
 
     const searchTerm = search.value;
 
-    if(searchTerm && searchTerm!=''){
+    if(searchTerm && searchTerm !==''){
         getMovies(SEARCH_API + searchTerm);
          search.value = '' ;
 
