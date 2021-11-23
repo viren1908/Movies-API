@@ -46,7 +46,7 @@ form.addEventListener('submit' , (e) =>{
 function showMovies(movies){ 
     //we want the blank page initially
     // dont want it top of initial ovies
-    MediaDeviceInfo.innerHTML = '' ;
+    MediaDeviceInfo.innerHTML = '';
 
     //loop over the data of movies that we got  
     movies.forEach((movie) => {
